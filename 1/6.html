@@ -6,7 +6,7 @@
   <title>Demo</title>
   <style>
     input[disabled] {
-      opacity: 0.2;
+      background-color: gray;
     }
   </style>
 </head>
@@ -14,7 +14,8 @@
 
 <form action="#">
   <fieldset>
-    <input type="text" disabled>
+    <label for="my-input">ラベル</label>
+    <input id="my-input" type="text" disabled>
   </fieldset>
 </form>
 
