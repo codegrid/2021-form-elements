@@ -2,4 +2,6 @@
 
 https://www.codegrid.net/series/2021-form-elements
 
-- [fieldset要素のデモ](./1/)
+1. fieldset要素
+  - [ソースコード](./1/)
+  - [デモ](https://codegrid.github.io/2021-form-elements/1/)

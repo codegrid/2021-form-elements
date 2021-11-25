@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Demo</title>
+</head>
+<body>
+
+<form action="#">
+  <fieldset disabled name="card_field1">
+    <legend>
+      <label>
+        <input type="checkbox" onchange="form.card_field1.disabled =! checked">
+        カード番号1を使用する
+      </label>
+    </legend>
+    <label>
+      カード番号：<input type="text">
+    </label>
+    <fieldset disabled name="card_field2">
+      <legend>
+        <label>
+          <input type="checkbox" onchange="form.card_field2.disabled =! checked">
+          カード番号2を使用する
+        </label>
+      </legend>
+      <label>
+        カード番号2：<input type="text">
+      </label>
+    </fieldset>
+  </fieldset>
+  <hr>
+  <button type="submit">カード番号を送信</button>
+</form>
+
+</body>
+</html>

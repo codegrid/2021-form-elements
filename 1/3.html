@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Demo</title>
+</head>
+<body>
+
+<form action="#">
+  <fieldset disabled name="card_field">
+    <legend>
+      <label>
+        <!-- ↓無効（disabled）状態にならない！ -->
+        <input type="checkbox" onchange="form.card_field.disabled =! checked">
+        カード番号を使用する
+      </label>
+    </legend>
+    <label>
+      <!-- ↓無効（disabled）状態になる -->
+      カード番号：<input type="text">
+    </label>
+    <!-- ↓無効（disabled）状態になる -->
+  </fieldset>
+  <hr>
+  <button type="submit">カード番号を送信</button>
+</form>
+
+</body>
+</html>
